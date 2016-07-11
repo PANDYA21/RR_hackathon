@@ -1,0 +1,9 @@
+curl -X POST -u a03c2083-8ddc-400f-96e8-31cd4ba8e749:VmdWUNBh6uYg "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters" -d ""
+
+## resposne
+
+{"solr_cluster_id":"scc6fe8aa8_3f31_404c_ab43_498d58ad0e6a","cluster_name":"",#
+"cluster_size":"","solr_cluster_status":"NOT_AVAILABLE"}
+
+
+curl -u a03c2083-8ddc-400f-96e8-31cd4ba8e749:VmdWUNBh6uYg "https://gateway.watsonplatform.net/retrieve-and-rank/api/v1/solr_clusters/scc6fe8aa8_3f31_404c_ab43_498d58ad0e6a"
